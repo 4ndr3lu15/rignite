@@ -55,13 +55,3 @@ class MLP:
             for perceptron in layer.perceptrons:
                 w.append()
 
-def loss(y_hat, y):
-    return 
-
-def backpropagation(model, loss, dataset):
-    preds = []
-    for i in range(len(dataset)):
-        X = dataset[i][:-1]
-        y = datset[i][-1]
-        y_hat = model.predict(X)
-
